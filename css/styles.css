@@ -1,6 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    font-size:0;
 }
 
 body{
@@ -26,6 +27,7 @@ body{
     padding-left: 30px;
     padding-right: 30px;
     line-height: 70px;
+    font-size: 16px;
 }
 
 .capa{
@@ -33,5 +35,38 @@ body{
 }
 
 .capa span{
-    color: green;
+    color: #a93955;
+    display: block;
+}
+
+.capa div{
+    display: inline-block;
+    height: 650px;
+}
+     
+.profile-pic{
+    width: 40%;
+    text-align: center;
+}
+
+.profile-pic img{
+    width: 350px;
+    border-radius: 350px;
+    margin-top: 100px;
+}
+
+.profile-title{
+    vertical-align: top;
+    width: 60%;
+ 
+}
+
+.profile-title h1{
+    font-size: 58px;
+    margin-top: 210px;
+}
+
+.profile-title h2{
+
+    font-size: 20px;
 }
