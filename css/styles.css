@@ -1,17 +1,18 @@
 html, body{
     margin: 0;
     padding: 0;
-    font-size:0;
 }
 
 body{
-    background-color: #19323C;
+    background-color: #25171A;
+    font-family: 'Poppins', sans-serif;
 }
 
 .navigation{
-    background-color: #F3F7F0;
+    background-color: #FFF0F5;
     color: black;
     height: 70px;
+    font-weight: 400;
 }
 
 .navigation ul{
@@ -31,11 +32,11 @@ body{
 }
 
 .capa{
-    color: white;
+    color: #F7F4F3;
 }
 
 .capa span{
-    color: #a93955;
+    color: #F77F00;
     display: block;
 }
 
@@ -57,16 +58,72 @@ body{
 
 .profile-title{
     vertical-align: top;
-    width: 60%;
+    width: 59%;
+    line-height: 55px;
  
 }
 
 .profile-title h1{
+    text-transform: uppercase;
     font-size: 58px;
-    margin-top: 210px;
+    margin-top: 200px;
+    font-weight: 400;
 }
 
 .profile-title h2{
-
     font-size: 20px;
+    font-weight: 400;
+    margin-top: -19px;
+    color: #a07788;
+}
+
+
+
+
+.main{
+
+    padding: 65px 180px 80px 80px ;  
+}
+
+.main img{
+    float:right;
+    width: 300px;
+    margin: 30px;
+}
+
+.main h1{
+    color: white;
+    font-weight: normal;
+}
+
+.main h2{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.main h3{
+    text-transform: uppercase;
+    color: violet;
+    font-size: 12px;
+}
+
+.main p{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 24px;
+    text-align: justify;
+}
+
+.caminho {
+    list-style: none;
+    padding-left: 0;
+    color: grey;
+}
+
+.caminho li{
+    display: inline-block;
 }
