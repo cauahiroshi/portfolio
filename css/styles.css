@@ -13,6 +13,9 @@ body{
     color: black;
     height: 70px;
     font-weight: 400;
+
+    animation-name: navegacao;
+    animation-duration: 2s; 
 }
 
 .navigation ul{
@@ -23,12 +26,26 @@ body{
     height: 70px;
 }
 
+.navigation a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    color: #A020F0; 
+}
+
 .navigation li{
     display: inline-block;
     padding-left: 30px;
     padding-right: 30px;
     line-height: 70px;
     font-size: 16px;
+}
+
+.navigation li.threeline-icon{
+   display: none;
+
 }
 
 .capa{
@@ -48,6 +65,9 @@ body{
 .profile-pic{
     width: 40%;
     text-align: center;
+
+    animation-name: profile-capa;
+    animation-duration: 4s; 
 }
 
 .profile-pic img{
@@ -60,6 +80,9 @@ body{
     vertical-align: top;
     width: 59%;
     line-height: 55px;
+
+    animation-name: titulo-capa;
+    animation-duration: 3s; 
  
 }
 
@@ -85,6 +108,9 @@ body{
 .main{
 
     padding: 65px 180px 80px 80px ;  
+
+    animation-name: conteudo;
+    animation-duration: 2s;
 }
 
 .cv-pic{
@@ -130,6 +156,10 @@ body{
     display: inline-block;
 }
 
+.caminho a{
+    color: grey;
+}
+
 .social-img{
     width: 50px;
 }
@@ -154,10 +184,12 @@ body{
     background-color: black;
     opacity: 0;
     padding-top: 120px;
+    transition: 1s;
 }
 
 .black-box:hover{
     opacity: 0.8;
+    transition: 1s;
 }
 
 .blackbox-text{
@@ -181,4 +213,30 @@ body{
     width: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+.back-link{
+    color: orange;  
+}
+
+@keyframes profile-capa{
+    0% {opacity: 0; transform: translate(0px,50px);};
+    100%{opacity: 1; transform: translate(0px,0);};
+}
+
+@keyframes titulo-capa{
+    0% {opacity: 0; transform: translate(200px,0px);};
+    100%{opacity: 1; transform: translate(0px,0);};
+}
+
+@keyframes conteudo{
+    0% {opacity: 0; transform: translate(-20px,0px);};
+    100%{opacity: 1; transform: translate(0px,0);};
+}
+
+
+@keyframes navegacao{
+    0% {opacity:0; };
+    50%{opacity:0;}
+    100%{opacity:1;};
 }
