@@ -8,6 +8,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+
+
+
+
 .navigation{
     background-color: #FFF0F5;
     color: black;
@@ -45,8 +51,20 @@ body{
 
 .navigation li.threeline-icon{
    display: none;
-
 }
+
+.navigation li.threeline-icon:hover{
+    color: #A020F0;
+    cursor: pointer;
+ }
+
+
+
+
+
+
+
+
 
 .capa{
     color: #F7F4F3;
@@ -61,6 +79,12 @@ body{
     display: inline-block;
     height: 650px;
 }
+
+
+
+
+
+
      
 .profile-pic{
     width: 40%;
@@ -99,6 +123,8 @@ body{
     margin-top: -19px;
     color: #a07788;
 }
+
+
 
 
 
@@ -146,6 +172,13 @@ body{
     text-align: justify;
 }
 
+
+
+
+
+
+
+
 .caminho {
     list-style: none;
     padding-left: 0;
@@ -190,12 +223,12 @@ body{
     background-color: black;
     opacity: 0;
     padding-top: 120px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .black-box:hover{
     opacity: 0.8;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .blackbox-text{
@@ -224,6 +257,13 @@ body{
 .back-link{
     color: orange;  
 }
+
+
+
+
+
+
+
 
 @keyframes profile-capa{
     0% {opacity: 0; transform: translate(0px,50px);};
@@ -265,15 +305,76 @@ body{
 
 .profile-pic{
     width: 100%;
-    background-color:yellow;
+}
+
+.profile-pic img{
+    margin-top: 0;
+    max-width: 100%;
 }
 
 .profile-title{
+    text-align: center;
     width: 100%;
-    background-color:red;
+}
+
+.profile-title h1{
+    margin-top: 30px;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.profile-title h2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.main{
+    padding: 15px 5% 40px 5%  ;  
+}
+
+.main p{
+    text-align: left;
+    line-height: 32px;
+}
+
+.caminho li{
+    font-size: 14px;
+}
+
+.cv-pic{
+    float: none;
+    max-width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.miniatura{
+    max-width: 100%;
+    background-size: auto 100%;
+}
+
+.black-box{
+    opacity: 0.8;
 }
 
 
+.menujs{
+height: auto;
+}
 
+.menujs ul{
+    height: auto;
+    text-align: center;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.menujs li{
+    display: block;
+    border-bottom: solid gray 1px;
+    width: 100%;
+    padding: 0;
+}
 
 }
